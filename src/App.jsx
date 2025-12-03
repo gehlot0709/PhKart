@@ -18,7 +18,7 @@ import TVs from "./pages/TVs";
 import Gifts from "./pages/Gifts";
 import Grocery from "./pages/Grocery";
 import MobileTablets from "./pages/MobileTablets";
-import More from "./pages/More";
+import MoreProducts from "./pages/MoreProducts";
 const App = () => {
   return (
     <Router>
@@ -40,7 +40,7 @@ const App = () => {
           <Route path="gifts" element={<Gifts />} />
           <Route path="grocery" element={<Grocery />} />
           <Route path="mobile" element={<MobileTablets />} />
-          <Route path="more" element={<More />} />
+          <Route path="more" element={<MoreProducts />} />
         </Route>
       </Routes>
     </Router>
