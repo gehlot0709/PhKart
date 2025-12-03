@@ -1,24 +1,24 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import MainLayout from "./layouts/MainLayout.jsx";
+import MainLayout from "./layouts/MainLayout";
 
 // Pages
 import Home from "./pages/Home";
-import Products from "./pages/Products.jsx";
-import ProductDetail from "./pages/ProductDetail.jsx";
-import Cart from "./pages/Cart.jsx";
-import Checkout from "./pages/Checkout/Checkout.jsx";
-import Login from "./pages/Login.jsx";
-import Register from "./pages/Register.jsx";
-import MyProfile from "./pages/MyProfile.jsx";
-import Fashion from "./pages/Fashion.jsx";
-import Electronics from "./pages/Electronics.jsx";
-import Furniture from "./pages/Furniture.jsx";
-import TVs from "./pages/TVs.jsx";
-import Gifts from "./pages/Gifts.jsx";
-import Grocery from "./pages/Grocery.jsx";
-import MobileTablets from "./pages/MobileTablets.jsx";
-import More from "./pages/More.jsx";
+import Products from "./pages/Products";
+import ProductDetail from "./pages/ProductDetail";
+import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout/Checkout";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import MyProfile from "./pages/MyProfile";
+import Fashion from "./pages/Fashion";
+import Electronics from "./pages/Electronics";
+import Furniture from "./pages/Furniture";
+import TVs from "./pages/TVs";
+import Gifts from "./pages/Gifts";
+import Grocery from "./pages/Grocery";
+import MobileTablets from "./pages/MobileTablets";
+import More from "./pages/More";
 const App = () => {
   return (
     <Router>
